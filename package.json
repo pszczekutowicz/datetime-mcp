@@ -1,5 +1,7 @@
 {
-  "name": "math-mcp",
+  "name": "datetime-mcp",
+  "version": "1.0.0",
+  "license": "MIT",
   "module": "src/main.ts",
   "scripts": {
     "start": "bun run src/main.ts",
