@@ -11,7 +11,7 @@ A simple datetime server using Model Context Protocol (MCP).
 ## Installation
 
 1. **Build the Docker Image**
-   
+
    Build the image using a tag (e.g., `datetime-mcp`).
    ```bash
     docker image build -t datetime-mcp .
@@ -21,10 +21,10 @@ A simple datetime server using Model Context Protocol (MCP).
    ```json
    {
      "servers": {
-       "datetime-server": {
+       "datetime-mcp": {
          "type": "stdio",
          "command": "docker",
-         "args": ["run", "--interactive", "--rm", "datetime-mcp"] 
+         "args": ["run", "--interactive", "--rm", "--pull=always", "ghcr.io/pszczekutowicz/datetime-mcp"]
        }
      },
      "inputs": []
