@@ -1,0 +1,20 @@
+{
+  "name": "math-mcp",
+  "module": "src/main.ts",
+  "scripts": {
+    "start": "bun run src/main.ts",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/bun": "latest",
+    "eslint": "^9.33.0",
+    "globals": "^16.3.0",
+    "typescript-eslint": "^8.39.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.2",
+    "date-fns": "^4.1.0"
+  }
+}
